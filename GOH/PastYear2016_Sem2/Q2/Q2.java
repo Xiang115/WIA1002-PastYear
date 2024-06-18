@@ -9,7 +9,7 @@ public class Q2 {
     public static void main(String[] args) {
         String sentence = "";
         try {
-            Scanner sc = new Scanner(new FileInputStream("BracMatch"));
+            Scanner sc = new Scanner(new FileInputStream("BracMatch.txt"));
             while (sc.hasNextLine()) {
                 sentence += sc.nextLine();
             }

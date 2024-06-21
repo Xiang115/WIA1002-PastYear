@@ -8,10 +8,4 @@ public class Node<E> {
         left = null;
         right = null;
     }
-    
-    @Override
-    public String toString() {
-        return e.toString();
-    }
-    
 }
